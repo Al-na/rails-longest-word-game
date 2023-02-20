@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+ /* .grid {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  width: 900px;
+  max-width: 100%;
+  margin: 0 auto;
+  grid-gap: 20px;
+  background: lightskyblue;
+  border: 1px white solid;
+ } */
+
+ .letter {
+  display: grid;
+  background-color: lightskyblue;
+  color: white;
+  font-size: 100px;
+ }
